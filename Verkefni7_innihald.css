@@ -1,0 +1,56 @@
+*{box-sizing: border-box;}
+
+
+body{
+    margin: 0 auto;
+    max-width: 60em;
+    padding-top: 6em;
+    background-image: linear-gradient( cadetblue, limegreen);
+    font-family: 'Smooch', cursive;
+}
+.header{
+    text-align: center;
+}
+
+.mynd{
+    max-width: 100%;
+    height: auto;
+}
+.topmenu li{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.col-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col-3{
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr;
+}
+
+.main{
+    background-color: rgb(55, 160, 160);
+    padding: 2.5em;
+}
+
+.art1{
+    padding: 20px;
+}
+
+.as1{
+    padding: 20px;
+}
+
+.as2{
+    padding: 20px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.skamm{text-align: center;}

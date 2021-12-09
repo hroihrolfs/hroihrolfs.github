@@ -1,0 +1,28 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0 auto;
+    background-image: linear-gradient( cadetblue, limegreen);
+}
+.header{
+    text-align: center;
+}
+
+.mynd{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.topmenu{
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 15px;
+    margin: 0 auto;
+}
+li{
+    padding: 5px;
+    margin: 0 auto;
+}
+
