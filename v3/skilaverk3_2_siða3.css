@@ -1,0 +1,71 @@
+body{
+    margin: 20%;
+    border: solid 1px;
+}
+.topnav{
+    border: 1px solid;
+    list-style-type: none;
+    ;
+}
+
+.topmenu{grid-area: listi;
+}
+
+.header{grid-area: haus;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+}
+.fella{
+    display: grid;
+    grid-template-areas: 
+    "haus listi";
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+h1{
+    font-size: 3em;
+    color: gold;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    border: 1px solid;
+}
+.art1{
+    display: grid;
+    border: solid 1px;
+    padding: 20px;
+}
+.art1{grid-area: leturfrædi;
+    border: solid 1px;
+    padding: 20px;
+}
+.art2{grid-area: flokkar;
+    border: solid 1px;
+    padding: 20px;
+}
+.as1{grid-area: leturgerd;
+    border: solid 1px;
+    padding: 20px;
+
+}
+.as2{grid-area: litafrædi;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+    "leturfrædi flokkar leturgerd litafrædi";
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+blockquote{
+    border: solid 1px;
+    margin: 0 auto;
+    padding: 10px; 
+}
